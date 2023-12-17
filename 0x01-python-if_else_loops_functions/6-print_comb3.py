@@ -5,4 +5,4 @@ for i in range(9):
         if j == i:
             continue
         result = f"{i}{j}"
-        print(result, end='\n' if result == '89' else ', ')
+        print("{:s}".format(result), end='\n' if result == '89' else ', ')
