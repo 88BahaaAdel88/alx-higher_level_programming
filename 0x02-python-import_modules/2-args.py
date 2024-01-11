@@ -4,7 +4,7 @@ from sys import argv
 argc = len(argv)
 i = 1
 if argc == 1:
-    print('{} arguments.'.format(argc))
+    print('0 arguments.'.format(argc))
 else:
     print('{} arguments:'.format(argc - 1))
     while i < argc:
