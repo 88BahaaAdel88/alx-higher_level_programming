@@ -4,7 +4,7 @@ if __name__ == "__main__":
 
     argc = len(argv)
     i = 1
-    
+
     if argc == 1:
         print('0 arguments.')
     elif argc == 2:
